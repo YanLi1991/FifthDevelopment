@@ -1,0 +1,498 @@
+section {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/*--------------------------*/
+
+
+/* fonts */
+
+
+/*--------------------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 300%;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 200%;
+}
+
+h3 {
+    font-weight: 300;
+    color: #272727;
+    font-size: 150%;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 100%;
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+
+/*--------------------------*/
+
+
+/* html */
+
+
+/*--------------------------*/
+
+body,
+html {
+    margin: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+
+/*--------------------------*/
+
+
+/* buttons */
+
+
+/*--------------------------*/
+
+.btn {
+    border-radius: 100px;
+}
+
+
+/*--------------------------*/
+
+
+/* header */
+
+
+/*--------------------------*/
+
+.header-main {
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/DSC_0547-min.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.header-bg {
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    white-space: nowrap;
+    top: 40%;
+}
+
+.name h1 {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 250%;
+}
+
+.name h2 {
+    color: #ff0000;
+}
+
+.scanner {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    white-space: nowrap;
+    top: 70%;
+}
+
+
+/*--------------------------*/
+
+
+/* logo */
+
+
+/*--------------------------*/
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.logo-fix {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*--------------------------*/
+
+
+/* main nav */
+
+
+/*--------------------------*/
+
+.main-nav,
+.main-nav-2 {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.fixposition {
+    position: fixed;
+    display: block;
+    width: 100vw;
+}
+
+.main-nav li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #EB8921;
+}
+
+.main-nav-2 li {
+    display: inline-block;
+    color: #6E6E6E;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.main-nav-2 li a:link,
+.main-nav-2 li a:visited {
+    color: #6E6E6E;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav-2 li a:hover,
+.main-nav-2 li a:active {
+    color: #EB8921;
+}
+
+
+/*--------------------------*/
+
+
+/* index */
+
+
+/*--------------------------*/
+
+.centered {
+    text-align: center;
+    left: 50%;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 15%;
+    background-color: transparent;
+    color: #EB8921;
+}
+
+.centered h1 {
+    font-size: 3vw;
+    color: #EB8921;
+    word-spacing: 2px;
+}
+
+.centered p {
+    font-size: 1vw;
+    word-spacing: 1px;
+}
+
+.centered p {
+    font-style: italic;
+}
+
+
+/*--------------------------*/
+
+
+/* all sections */
+
+
+/*--------------------------*/
+
+.title {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: #6E6E6E;
+    word-spacing: 2px;
+    height: 5vh;
+}
+
+.sectionmargin {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.sectionmargin-imgs {
+    margin-left: 3vw;
+}
+
+.sectionmargin h3 {
+    height: 2vw;
+    font-size: 1.7vw;
+    word-spacing: 1px;
+    color: #EB8921;
+}
+
+.sectionmargin p {
+    font-size: 1.1vw;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+/*--------------------------*/
+
+
+/* about us */
+
+
+/*--------------------------*/
+
+.pageback {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(img/DSC_0583-min.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*--------------------------*/
+
+
+/* projects */
+
+
+/*--------------------------*/
+
+.pageback-projects {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/projects-min.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-container {
+    display: inline-block;
+    margin-right: 2vw
+}
+
+.img-container img {
+    width: 29vw;
+    margin-bottom: 20px;
+}
+
+.img-container h4 {
+    font-style: italic;
+    font-weight: 350;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+
+/*--------------------------*/
+
+
+/* coming soon */
+
+
+/*--------------------------*/
+
+.pageback-coming {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(img/coming-min.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sectioncoming {
+    margin-left: 30vw;
+}
+
+.comingproject h3 {
+    text-decoration: underline;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+    display: inline-block;
+    color: #EB8921;
+}
+
+.comingproject h3:hover,
+.comingproject h3:active {
+    color: skyblue;
+}
+
+
+/*--------------------------*/
+
+
+/* construction */
+
+
+/*--------------------------*/
+
+.pageback-construction {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/construction-min.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sectionmargin img {
+    width: 100%;
+    height: auto;
+}
+
+.sectionmargin h4 {
+    margin-top: 1vh;
+    text-align: center;
+    text-decoration: underline
+}
+
+.sectionmargin h4:hover,
+.sectionmargin h4:active {
+    color: #EB8921;
+}
+
+.long-img{
+    max-width:56%;
+    margin: 0 auto;
+}
+
+
+/*--------------------------*/
+
+
+/* contact us */
+
+
+/*--------------------------*/
+
+.pageback-contactus {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(img/contactus-min.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#left {
+    position: absolute;
+    left: 8%;
+    width: 40%;
+}
+
+#right {
+    position: absolute;
+    right: 8%;
+    width: 40%;
+}
+
+#right h4 {
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/*--------------------------*/
+
+
+/* footer */
+
+
+/*--------------------------*/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 10px;
+}
+
+.hidedown {
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+}
+
+.hideitem {
+    display: none;
+}

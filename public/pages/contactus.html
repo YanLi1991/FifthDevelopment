@@ -1,0 +1,56 @@
+<script src="/public/resources/js/script_load.js"></script>
+
+
+<section ng-controller="projectsController" class="pageback-contactus " id="contactus">
+    <div class="title">
+        <h2>Contact us</h2>
+    </div>
+    <div class="sectionmargin">
+        <div class="sectionmargin">
+            <div id="left">
+                <div id="map" style="height: 400px; width: 100%;background-color: transparent;"></div>
+                <script>
+                    function initMap() {
+                        var uluru = {
+                            lat: 43.856098,
+                            lng: -79.337021
+                        };
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 15,
+                            center: uluru
+                        });
+                        var marker = new google.maps.Marker({
+                            position: uluru,
+                            map: map
+                        });
+                    }
+
+                </script>
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUtKhd2nJHT2C-EKDKx0DxOOfqB6XB618&callback=initMap">
+
+
+                </script>
+            </div>
+            <div id="right">
+                <p style="font-style: italic">Please contact us for any information you need, it is our great honour to assist you with your future.</p>
+                <h4 style="color: #EB8921; display: inline-block">Address:</h4>&emsp;&emsp;<p style="display: inline-block">Unit 45 - 145 Royal Crest Court, Markham, ON. L3R 9Z4</p>
+                <br>
+                <br>
+                <h4 style="color: dimgrey; display: inline-block">Zev You</h4>&emsp;-&emsp;
+                <p style="display: inline-block">647-686-2748</p>
+                <p>zev.you@fifthavedevelopment.com</p>
+                <br>
+                <h4 style="color: dimgrey; display: inline-block">Warren Li</h4>&emsp;-&emsp;
+                <p style="display: inline-block">647-979-8168</p>
+                <p>warren.li@fifthavedevelopment.com</p>
+                <br>
+                <h4 style="color: dimgrey; display: inline-block">Leon Zhang</h4>&emsp;-&emsp;
+                <p style="display: inline-block">647-823-8813</p>
+                <p>leon.zhang@fifthavedevelopment.com</p>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
